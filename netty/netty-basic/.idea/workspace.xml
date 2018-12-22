@@ -14,7 +14,7 @@
     <session id="-1411125319">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
+          <entry key="project.closed" value="14" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.208" value="1" />
@@ -24,41 +24,64 @@
           <entry key="project.open.time.32" value="2" />
           <entry key="project.open.time.39" value="1" />
           <entry key="project.open.time.57" value="1" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="2" />
-          <entry key="java" value="139" />
+          <entry key="class" value="3" />
+          <entry key="java" value="170" />
           <entry key="proto" value="1" />
-          <entry key="xml" value="3" />
+          <entry key="xml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="2" />
-          <entry key="JAVA" value="139" />
+          <entry key="CLASS" value="3" />
+          <entry key="JAVA" value="170" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="XML" value="3" />
+          <entry key="XML" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1626" />
-          <entry key="xml" value="7" />
+          <entry key="dummy" value="5" />
+          <entry key="java" value="3150" />
+          <entry key="xml" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1626" />
-          <entry key="XML" value="7" />
+          <entry key="JAVA" value="3150" />
+          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="XML" value="22" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/my/netty/demo/example/http/snoop/HttpSnoopServerInitializer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="550">
+              <caret line="29" column="48" lean-forward="true" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/my/netty/demo/example/http/snoop/HttpSnoopServerHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1602">
+              <caret line="49" column="37" lean-forward="true" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -96,6 +119,7 @@
       <find>Channel</find>
       <find>CLOSED_CHANN</find>
       <find>public Timestamp(</find>
+      <find>channelRead</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -113,9 +137,7 @@
         <option value="$PROJECT_DIR$/src/main/java/my/netty/demo/http/HttpHelloWorldServerInitializer.java" />
         <option value="$PROJECT_DIR$/src/main/java/my/netty/demo/http/HttpHelloWorldServerHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/my/netty/demo/tcpserver/HelloServerHandler.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/my/netty/demo/http/HttpHelloWorldServer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/my/netty/demo/HelloWorld.java" />
         <option value="$PROJECT_DIR$/src/main/java/my/netty/usage/ByteBufUsage.java" />
         <option value="$PROJECT_DIR$/src/main/java/my/netty/usage/ChannelUsage.java" />
         <option value="$PROJECT_DIR$/src/main/java/my/netty/App.java" />
@@ -133,6 +155,19 @@
         <option value="$PROJECT_DIR$/src/main/java/my/netty/demo/http/file/HttpStaticFileServerHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/my/netty/demo/http/file/HttpStaticFileServerInitializer.java" />
         <option value="$PROJECT_DIR$/src/main/java/my/netty/demo/http/file/HttpStaticFileServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/my/netty/guide/packaging/TimeServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/my/netty/guide/packaging/TimeServerHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/my/netty/demo/packaging/TimeServerHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/my/netty/demo/guide/packaging/TimeServerHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/my/netty/demo/guide/packaging/TimeServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/my/netty/demo/guide/packaging/v1/TimeServerHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/my/netty/demo/guide/packaging/v2/TimeServerHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/my/netty/demo/HelloWorld.java" />
+        <option value="$PROJECT_DIR$/src/main/java/my/netty/demo/guide/packaging/v2/TimeServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/my/netty/demo/guide/packaging/v3/EchoServerHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/my/netty/demo/guide/packaging/v3/EchoServer.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/my/netty/demo/usage/MessagePackUsage.java" />
       </list>
     </option>
   </component>
@@ -171,17 +206,19 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
-    <option name="height" value="1096" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -213,15 +250,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="netty-basic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netty-basic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -230,28 +258,63 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty-basic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty-basic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
               <item name="http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty-basic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty-basic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="http" type="462c0819:PsiDirectoryNode" />
+              <item name="helloworld" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty-basic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty-basic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="http" type="462c0819:PsiDirectoryNode" />
+              <item name="snoop" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544689585567" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545452362300" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="my.netty.demo" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="my.netty.demo.guide.packaging.v2" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\MyWorkspace\netty-basic\src\main\java\my\netty\demo" />
     </key>
@@ -268,13 +331,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HttpStaticFileServer">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="my.netty.App" />
+  <component name="RunManager" selected="Application.MessagePackUsage">
+    <configuration name="EchoServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="my.netty.demo.guide.packaging.v3.EchoServer" />
       <module name="netty-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="my.netty.*" />
+          <option name="PATTERN" value="my.netty.demo.guide.packaging.v3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -282,12 +345,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HttpHelloWorldServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="my.netty.demo.http.helloworld.HttpHelloWorldServer" />
+    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="my.netty.demo.HelloWorld" />
       <module name="netty-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="my.netty.demo.http.helloworld.*" />
+          <option name="PATTERN" value="my.netty.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -295,12 +358,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HttpSnoopServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="my.netty.demo.http.snoop.HttpSnoopServer" />
+    <configuration name="MessagePackUsage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="my.netty.demo.usage.MessagePackUsage" />
       <module name="netty-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="my.netty.demo.http.snoop.*" />
+          <option name="PATTERN" value="my.netty.demo.usage.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -308,12 +371,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HttpStaticFileServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="my.netty.demo.http.file.HttpStaticFileServer" />
+    <configuration name="TimeServer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="my.netty.demo.guide.packaging.v2.TimeServer" />
       <module name="netty-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="my.netty.demo.http.file.*" />
+          <option name="PATTERN" value="my.netty.demo.guide.packaging.v2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -321,12 +384,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TcpServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="my.netty.demo.tcpserver.TcpServer" />
+    <configuration name="TimeServer (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="my.netty.demo.guide.packaging.v1.TimeServer" />
       <module name="netty-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="my.netty.demo.tcpserver.*" />
+          <option name="PATTERN" value="my.netty.demo.guide.packaging.v1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TimeServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="my.netty.demo.guide.packaging.v1.TimeServer" />
+      <module name="netty-basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="my.netty.demo.guide.packaging.v1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -335,19 +411,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TcpServer" />
-      <item itemvalue="Application.HttpHelloWorldServer" />
-      <item itemvalue="Application.App" />
-      <item itemvalue="Application.HttpSnoopServer" />
-      <item itemvalue="Application.HttpStaticFileServer" />
+      <item itemvalue="Application.TimeServer" />
+      <item itemvalue="Application.TimeServer (1)" />
+      <item itemvalue="Application.TimeServer (2)" />
+      <item itemvalue="Application.HelloWorld" />
+      <item itemvalue="Application.EchoServer" />
+      <item itemvalue="Application.MessagePackUsage" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HttpStaticFileServer" />
-        <item itemvalue="Application.HttpSnoopServer" />
-        <item itemvalue="Application.HttpHelloWorldServer" />
-        <item itemvalue="Application.TcpServer" />
-        <item itemvalue="Application.App" />
+        <item itemvalue="Application.MessagePackUsage" />
+        <item itemvalue="Application.EchoServer" />
+        <item itemvalue="Application.TimeServer (1)" />
+        <item itemvalue="Application.HelloWorld" />
+        <item itemvalue="Application.TimeServer (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -373,18 +450,20 @@
       <workItem from="1544101136192" duration="1313000" />
       <workItem from="1544144183758" duration="457000" />
       <workItem from="1544146081590" duration="7122000" />
-      <workItem from="1544683777838" duration="4379000" />
+      <workItem from="1544683777838" duration="10326000" />
+      <workItem from="1545052591075" duration="10571000" />
+      <workItem from="1545451941846" duration="391000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83250000" />
+    <option name="totallyTimeSpent" value="100159000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20095949" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20522387" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -392,9 +471,9 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32917964" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32917964" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.44548288" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32827735" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31464174" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.34236187" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -422,118 +501,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/MyTools/maven/io/netty/netty-all/4.1.31.Final/netty-all-4.1.31.Final-sources.jar!/io/netty/channel/nio/NioEventLoop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="51" column="77" selection-start-line="51" selection-start-column="77" selection-end-line="51" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/MyTools/maven/io/netty/netty-all/4.1.31.Final/netty-all-4.1.31.Final-sources.jar!/io/netty/bootstrap/ServerBootstrap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="42" column="49" selection-start-line="42" selection-start-column="49" selection-end-line="42" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/MyTools/maven/io/netty/netty-all/4.1.31.Final/netty-all-4.1.31.Final-sources.jar!/io/netty/bootstrap/AbstractBootstrap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="102" column="35" selection-start-line="102" selection-start-column="35" selection-end-line="102" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/nio/Buffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3050">
-          <caret line="199" column="21" selection-start-line="199" selection-start-column="13" selection-end-line="199" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/nio/ByteBuffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="261" column="32" selection-start-line="261" selection-start-column="22" selection-end-line="261" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/MyTools/maven/io/netty/netty-all/4.1.31.Final/netty-all-4.1.31.Final-sources.jar!/io/netty/buffer/ByteBufAllocator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="673">
-          <caret line="132" column="8" selection-start-line="132" selection-start-column="8" selection-end-line="132" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/netty/demo/HelloWorld.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/MyTools/maven/io/netty/netty-all/4.1.31.Final/netty-all-4.1.31.Final-sources.jar!/io/netty/buffer/AbstractReferenceCountedByteBuf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="38" column="48" lean-forward="true" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/MyTools/maven/io/netty/netty-all/4.1.31.Final/netty-all-4.1.31.Final-sources.jar!/io/netty/buffer/ByteBuf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46400">
-          <caret line="1896" column="39" selection-start-line="1896" selection-start-column="28" selection-end-line="1896" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/MyTools/maven/io/netty/netty-all/4.1.31.Final/netty-all-4.1.31.Final-sources.jar!/io/netty/buffer/AbstractByteBuf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1450">
-          <caret line="96" column="26" selection-start-line="96" selection-start-column="15" selection-end-line="96" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/MyTools/maven/io/netty/netty-all/4.1.31.Final/netty-all-4.1.31.Final-sources.jar!/io/netty/channel/Channel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="188" lean-forward="true" selection-start-line="188" selection-end-line="188" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/MyTools/maven/io/netty/netty-all/4.1.31.Final/netty-all-4.1.31.Final-sources.jar!/io/netty/util/DefaultAttributeMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/MyTools/maven/io/netty/netty-all/4.1.31.Final/netty-all-4.1.31.Final-sources.jar!/io/netty/channel/AbstractChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="360" column="43" lean-forward="true" selection-start-line="360" selection-start-column="43" selection-end-line="360" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/nio/channels/SelectableChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="91" column="22" selection-start-line="91" selection-start-column="22" selection-end-line="91" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/MyTools/maven/io/netty/netty-all/4.1.31.Final/netty-all-4.1.31.Final-sources.jar!/io/netty/channel/nio/AbstractNioChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="86" column="13" lean-forward="true" selection-start-line="86" selection-start-column="13" selection-end-line="86" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/MyTools/maven/io/netty/netty-all/4.1.31.Final/netty-all-4.1.31.Final-sources.jar!/io/netty/channel/nio/AbstractNioByteChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="264" column="5" lean-forward="true" selection-start-line="264" selection-start-column="5" selection-end-line="264" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/nio/channels/SocketChannel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="149">
@@ -555,13 +522,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/netty/usage/ByteBufUsage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/netty/demo/usage/ByteBufUsage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="18" column="74" selection-start-line="18" selection-start-column="74" selection-end-line="18" selection-end-column="74" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -572,20 +536,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/netty/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/netty/usage/ChannelUsage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/netty/App.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/netty/demo/usage/ChannelUsage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -603,210 +558,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/netty/demo/tcpserver/TcpServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="25" column="41" lean-forward="true" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
-          <folding>
-            <element signature="e#1188#1432#0" expanded="true" />
-            <element signature="e#1431#1432#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/netty/demo/tcpserver/HelloServerHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/netty/demo/example/tcpserver/HelloServerHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="413">
           <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/netty/demo/worldclock/WorldClockProtocol.proto">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1759">
-          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/netty/demo/worldclock/WorldClockProtocol.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8779">
-          <caret line="576" column="50" selection-start-line="576" selection-start-column="50" selection-end-line="576" selection-end-column="50" />
-          <folding>
-            <element signature="e#35#59#0" expanded="true" />
-            <element signature="e#3339#3340#0" expanded="true" />
-            <element signature="e#3386#3387#0" expanded="true" />
-            <element signature="e#3641#3642#0" expanded="true" />
-            <element signature="e#3721#3722#0" expanded="true" />
-            <element signature="e#3845#3846#0" expanded="true" />
-            <element signature="e#3914#3915#0" expanded="true" />
-            <element signature="e#4015#4016#0" expanded="true" />
-            <element signature="e#4061#4062#0" expanded="true" />
-            <element signature="e#4162#4163#0" expanded="true" />
-            <element signature="e#4277#4278#0" expanded="true" />
-            <element signature="e#7146#7147#0" expanded="true" />
-            <element signature="e#7193#7194#0" expanded="true" />
-            <element signature="e#7448#7449#0" expanded="true" />
-            <element signature="e#7528#7529#0" expanded="true" />
-            <element signature="e#7652#7653#0" expanded="true" />
-            <element signature="e#7721#7722#0" expanded="true" />
-            <element signature="e#7822#7823#0" expanded="true" />
-            <element signature="e#7868#7869#0" expanded="true" />
-            <element signature="e#7969#7970#0" expanded="true" />
-            <element signature="e#8084#8085#0" expanded="true" />
-            <element signature="e#10391#10392#0" expanded="true" />
-            <element signature="e#10437#10438#0" expanded="true" />
-            <element signature="e#10492#10493#0" expanded="true" />
-            <element signature="e#10538#10539#0" expanded="true" />
-            <element signature="e#10726#10727#0" expanded="true" />
-            <element signature="e#10775#10776#0" expanded="true" />
-            <element signature="e#14527#14528#0" expanded="true" />
-            <element signature="e#14564#14565#0" expanded="true" />
-            <element signature="e#14967#14968#0" expanded="true" />
-            <element signature="e#15039#15040#0" expanded="true" />
-            <element signature="e#15239#15240#0" expanded="true" />
-            <element signature="e#15280#15281#0" expanded="true" />
-            <element signature="e#15522#15523#0" expanded="true" />
-            <element signature="e#15594#15595#0" expanded="true" />
-            <element signature="e#23652#23653#0" expanded="true" />
-            <element signature="e#23717#23718#0" expanded="true" />
-            <element signature="e#24146#24147#0" expanded="true" />
-            <element signature="e#24198#24199#0" expanded="true" />
-            <element signature="e#24584#24585#0" expanded="true" />
-            <element signature="e#24657#24658#0" expanded="true" />
-            <element signature="e#28923#28924#0" expanded="true" />
-            <element signature="e#29003#29004#0" expanded="true" />
-            <element signature="e#29219#29220#0" expanded="true" />
-            <element signature="e#29268#29269#0" expanded="true" />
-            <element signature="e#30364#30365#0" expanded="true" />
-            <element signature="e#30444#30445#0" expanded="true" />
-            <element signature="e#35001#35002#0" expanded="true" />
-            <element signature="e#35047#35048#0" expanded="true" />
-            <element signature="e#35103#35104#0" expanded="true" />
-            <element signature="e#35149#35150#0" expanded="true" />
-            <element signature="e#35337#35338#0" expanded="true" />
-            <element signature="e#35386#35387#0" expanded="true" />
-            <element signature="e#39040#39041#0" expanded="true" />
-            <element signature="e#39077#39078#0" expanded="true" />
-            <element signature="e#39816#39817#0" expanded="true" />
-            <element signature="e#39856#39857#0" expanded="true" />
-            <element signature="e#40005#40006#0" expanded="true" />
-            <element signature="e#40052#40053#0" expanded="true" />
-            <element signature="e#40636#40637#0" expanded="true" />
-            <element signature="e#40705#40706#0" expanded="true" />
-            <element signature="e#47104#47105#0" expanded="true" />
-            <element signature="e#47169#47170#0" expanded="true" />
-            <element signature="e#47645#47646#0" expanded="true" />
-            <element signature="e#47697#47698#0" expanded="true" />
-            <element signature="e#48112#48113#0" expanded="true" />
-            <element signature="e#48185#48186#0" expanded="true" />
-            <element signature="e#63207#63208#0" expanded="true" />
-            <element signature="e#63288#63289#0" expanded="true" />
-            <element signature="e#67264#67265#0" expanded="true" />
-            <element signature="e#67310#67311#0" expanded="true" />
-            <element signature="e#67366#67367#0" expanded="true" />
-            <element signature="e#67412#67413#0" expanded="true" />
-            <element signature="e#67600#67601#0" expanded="true" />
-            <element signature="e#67649#67650#0" expanded="true" />
-            <element signature="e#72453#72454#0" expanded="true" />
-            <element signature="e#72490#72491#0" expanded="true" />
-            <element signature="e#72751#72752#0" expanded="true" />
-            <element signature="e#72823#72824#0" expanded="true" />
-            <element signature="e#72928#72929#0" expanded="true" />
-            <element signature="e#72964#72965#0" expanded="true" />
-            <element signature="e#73198#73199#0" expanded="true" />
-            <element signature="e#73270#73271#0" expanded="true" />
-            <element signature="e#73377#73378#0" expanded="true" />
-            <element signature="e#73414#73415#0" expanded="true" />
-            <element signature="e#73673#73674#0" expanded="true" />
-            <element signature="e#73745#73746#0" expanded="true" />
-            <element signature="e#73862#73863#0" expanded="true" />
-            <element signature="e#73904#73905#0" expanded="true" />
-            <element signature="e#74275#74276#0" expanded="true" />
-            <element signature="e#74347#74348#0" expanded="true" />
-            <element signature="e#74547#74548#0" expanded="true" />
-            <element signature="e#74588#74589#0" expanded="true" />
-            <element signature="e#74817#74818#0" expanded="true" />
-            <element signature="e#74889#74890#0" expanded="true" />
-            <element signature="e#74994#74995#0" expanded="true" />
-            <element signature="e#75030#75031#0" expanded="true" />
-            <element signature="e#75269#75270#0" expanded="true" />
-            <element signature="e#75341#75342#0" expanded="true" />
-            <element signature="e#75450#75451#0" expanded="true" />
-            <element signature="e#75488#75489#0" expanded="true" />
-            <element signature="e#75727#75728#0" expanded="true" />
-            <element signature="e#75799#75800#0" expanded="true" />
-            <element signature="e#75908#75909#0" expanded="true" />
-            <element signature="e#75946#75947#0" expanded="true" />
-            <element signature="e#85147#85148#0" expanded="true" />
-            <element signature="e#85212#85213#0" expanded="true" />
-            <element signature="e#85641#85642#0" expanded="true" />
-            <element signature="e#85693#85694#0" expanded="true" />
-            <element signature="e#86509#86510#0" expanded="true" />
-            <element signature="e#86582#86583#0" expanded="true" />
-            <element signature="e#92477#92478#0" expanded="true" />
-            <element signature="e#92557#92558#0" expanded="true" />
-            <element signature="e#92678#92679#0" expanded="true" />
-            <element signature="e#92722#92723#0" expanded="true" />
-            <element signature="e#93487#93488#0" expanded="true" />
-            <element signature="e#93567#93568#0" expanded="true" />
-            <element signature="e#93690#93691#0" expanded="true" />
-            <element signature="e#93735#93736#0" expanded="true" />
-            <element signature="e#94526#94527#0" expanded="true" />
-            <element signature="e#94606#94607#0" expanded="true" />
-            <element signature="e#94739#94740#0" expanded="true" />
-            <element signature="e#94789#94790#0" expanded="true" />
-            <element signature="e#95788#95789#0" expanded="true" />
-            <element signature="e#95868#95869#0" expanded="true" />
-            <element signature="e#96084#96085#0" expanded="true" />
-            <element signature="e#96133#96134#0" expanded="true" />
-            <element signature="e#97212#97213#0" expanded="true" />
-            <element signature="e#97292#97293#0" expanded="true" />
-            <element signature="e#97413#97414#0" expanded="true" />
-            <element signature="e#97457#97458#0" expanded="true" />
-            <element signature="e#98226#98227#0" expanded="true" />
-            <element signature="e#98306#98307#0" expanded="true" />
-            <element signature="e#98431#98432#0" expanded="true" />
-            <element signature="e#98477#98478#0" expanded="true" />
-            <element signature="e#99258#99259#0" expanded="true" />
-            <element signature="e#99338#99339#0" expanded="true" />
-            <element signature="e#99463#99464#0" expanded="true" />
-            <element signature="e#99509#99510#0" expanded="true" />
-            <element signature="e#102338#102339#0" expanded="true" />
-            <element signature="e#102384#102385#0" expanded="true" />
-            <element signature="e#102441#102442#0" expanded="true" />
-            <element signature="e#102487#102488#0" expanded="true" />
-            <element signature="e#102675#102676#0" expanded="true" />
-            <element signature="e#102724#102725#0" expanded="true" />
-            <element signature="e#106394#106395#0" expanded="true" />
-            <element signature="e#106431#106432#0" expanded="true" />
-            <element signature="e#107184#107185#0" expanded="true" />
-            <element signature="e#107225#107226#0" expanded="true" />
-            <element signature="e#107377#107378#0" expanded="true" />
-            <element signature="e#107425#107426#0" expanded="true" />
-            <element signature="e#108019#108020#0" expanded="true" />
-            <element signature="e#108089#108090#0" expanded="true" />
-            <element signature="e#114512#114513#0" expanded="true" />
-            <element signature="e#114577#114578#0" expanded="true" />
-            <element signature="e#115054#115055#0" expanded="true" />
-            <element signature="e#115106#115107#0" expanded="true" />
-            <element signature="e#115524#115525#0" expanded="true" />
-            <element signature="e#115597#115598#0" expanded="true" />
-            <element signature="e#130796#130797#0" expanded="true" />
-            <element signature="e#130878#130879#0" expanded="true" />
-            <element signature="e#133494#133495#0" expanded="true" />
-            <element signature="e#133527#133528#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/netty/demo/worldclock/WorldClockServerHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="63" selection-start-line="8" selection-start-column="63" selection-end-line="8" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/netty/demo/worldclock/WorldClockProtocol.proto" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/netty/demo/worldclock/WorldClockProtocol.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/netty/demo/worldclock/WorldClockServerHandler.java" />
     <entry file="jar://C:/MyTools/maven/io/netty/netty-all/4.1.31.Final/netty-all-4.1.31.Final-sources.jar!/io/netty/channel/SimpleChannelInboundHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
@@ -818,34 +579,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
           <caret line="42" column="11" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
-          <folding>
-            <element signature="e#1600#1601#0" expanded="true" />
-            <element signature="e#1638#1639#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/netty/demo/http/helloworld/HttpHelloWorldServerHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/netty/demo/http/helloworld/HttpHelloWorldServerInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/netty/demo/http/helloworld/HttpHelloWorldServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -898,84 +631,188 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/netty/demo/http/snoop/HttpSnoopClientHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/netty/demo/http/snoop/HttpSnoopClientInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/netty/demo/http/snoop/HttpSnoopClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1969">
-          <caret line="92" column="1" selection-start-line="92" selection-start-column="1" selection-end-line="92" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/netty/demo/http/snoop/HttpSnoopServerHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="49" column="37" lean-forward="true" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/netty/demo/http/snoop/HttpSnoopServer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/netty/demo/http/snoop/HttpSnoopClientHandler.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/netty/demo/http/snoop/HttpSnoopClientInitializer.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/netty/demo/http/snoop/HttpSnoopClient.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/netty/demo/example/http/snoop/HttpSnoopServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="438">
           <caret line="40" column="74" lean-forward="true" selection-start-line="40" selection-start-column="74" selection-end-line="40" selection-end-column="74" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/netty/demo/http/snoop/HttpSnoopServerInitializer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/netty/demo/example/http/file/HttpStaticFileServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/netty/demo/example/http/file/HttpStaticFileServerInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/netty/demo/example/http/file/HttpStaticFileServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7100">
+          <caret line="376" column="1" selection-start-line="376" selection-start-column="1" selection-end-line="376" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/MyTools/maven/io/netty/netty-all/4.1.31.Final/netty-all-4.1.31.Final-sources.jar!/io/netty/channel/ChannelHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="177" column="17" selection-start-line="177" selection-start-column="17" selection-end-line="177" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/MyTools/maven/io/netty/netty-all/4.1.31.Final/netty-all-4.1.31.Final-sources.jar!/io/netty/channel/ChannelHandlerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="25" column="60" lean-forward="true" selection-start-line="25" selection-start-column="60" selection-end-line="25" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/netty/demo/example/tcpserver/TcpServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="25" column="41" lean-forward="true" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/netty/demo/example/discard/DiscardServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="698">
+          <caret line="55" column="45" lean-forward="true" selection-start-line="55" selection-start-column="45" selection-end-line="55" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/MyTools/maven/io/netty/netty-all/4.1.31.Final/netty-all-4.1.31.Final-sources.jar!/io/netty/channel/ChannelInboundHandlerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="84" column="16" selection-start-line="84" selection-start-column="16" selection-end-line="84" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/netty/demo/example/time/TimeServerHander.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="34" column="35" lean-forward="true" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/netty/demo/example/time/TimeServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="36" column="61" lean-forward="true" selection-start-line="36" selection-start-column="61" selection-end-line="36" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/netty/demo/guide/packaging/v1/TimeServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="39" column="1" lean-forward="true" selection-start-line="2" selection-end-line="39" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/netty/demo/guide/packaging/v1/TimeServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/netty/demo/HelloWorld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/netty/demo/guide/packaging/v2/TimeServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="19" column="69" selection-start-line="19" selection-start-column="65" selection-end-line="19" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/netty/demo/guide/packaging/v2/TimeServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="36" column="45" lean-forward="true" selection-start-line="34" selection-start-column="12" selection-end-line="36" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/netty/demo/guide/packaging/v3/EchoServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="583">
+          <caret line="40" column="67" lean-forward="true" selection-start-line="40" selection-start-column="67" selection-end-line="40" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/netty/demo/guide/packaging/v3/EchoServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/MyTools/maven/org/msgpack/msgpack/0.6.7/msgpack-0.6.7.jar!/org/msgpack/template/Templates.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/netty/demo/usage/MessagePackUsage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="30" column="40" lean-forward="true" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/netty/demo/example/http/helloworld/HttpHelloWorldServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="50" column="37" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/netty/demo/example/http/helloworld/HttpHelloWorldServerInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="38" column="37" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/netty/demo/example/http/helloworld/HttpHelloWorldServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-325">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/netty/demo/example/http/snoop/HttpSnoopServerInitializer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
           <caret line="29" column="48" lean-forward="true" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/netty/demo/http/file/HttpStaticFileServer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/netty/demo/example/http/snoop/HttpSnoopServerHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/netty/demo/http/file/HttpStaticFileServerInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/netty/demo/http/file/HttpStaticFileServerHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7100">
-          <caret line="376" column="1" selection-start-line="376" selection-start-column="1" selection-end-line="376" selection-end-column="1" />
+        <state relative-caret-position="-1602">
+          <caret line="49" column="37" lean-forward="true" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
         </state>
       </provider>
     </entry>
