@@ -2,6 +2,7 @@ package my.netty.demo.example.tcpserver;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;
+import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelFutureListener;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
@@ -25,9 +26,12 @@ public class HelloServerHandler extends ChannelInboundHandlerAdapter {
 
     @Override
     public void channelReadComplete(ChannelHandlerContext ctx) throws Exception {
-        // ChannelHandlerContext的flush方法的作用是将消息发送队列中的消息写到SocketChannel中发送给对方
-        ctx.writeAndFlush(Unpooled.EMPTY_BUFFER) // writeAndFlush方法是write和flush方法的快捷方式
-                .addListener(ChannelFutureListener.CLOSE); //所指定的Listner在Future完成的时候会被通知，ChannelFutureListener.CLOSE的作用是关闭ChannelFuture
+        /*ctx.writeAndFlush(Unpooled.EMPTY_BUFFER)
+                .addListener(ChannelFutureListener.CLOSE); */
+
+        ChannelFuture channelFuture = ctx.writeAndFlush(Unpooled.EMPTY_BUFFER);
+        channelFuture.addListener(ChannelFutureListener.CLOSE);
+        //...
     }
 
     @Override
@@ -36,3 +40,19 @@ public class HelloServerHandler extends ChannelInboundHandlerAdapter {
         ctx.close();
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
